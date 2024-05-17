@@ -36,3 +36,7 @@ You are expected to:
 - Apply finetuning ( if needed ) before RAG 
 
 ## Resources:
+
+- Ollama: https://ollama.com
+- Hugging Face: https://huggingface.com
+- 
