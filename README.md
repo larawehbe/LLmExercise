@@ -39,6 +39,7 @@ You are expected to:
 
 - Ollama: https://ollama.com
 - Hugging Face: https://huggingface.com
+- langchain: https://python.langchain.com/v0.1/docs/get_started/introduction/ official documentation. no better place than starting from here. people who knows how to read documentations, will finish it in significantly fast time. 
 - Different ways of loading data in order to put them in vectordatabase and use langchain. i love this article. https://medium.com/@onkarmishra/using-langchain-for-question-answering-on-own-data-3af0a82789ed
 - Sample: https://hackernoon.com/simple-wonders-of-rag-using-ollama-langchain-and-chromadb This example uses RAG, and the dataset is from a person, they are using webloader. You can test on it, but submitting this dataset is considered as rejected solution!!.
 - what is rag: https://qdrant.tech/articles/what-is-rag-in-ai/ couldnt say it any better. However, feel free to explore more. This is not enough, its only the beginnign.
