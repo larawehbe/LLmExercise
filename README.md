@@ -6,7 +6,7 @@ It will include two versions. Choose anyone of them that is more suitable for yo
 ## Objective:
 
 In this exercise, you have deeper understanding of Large Language Models, Vector Datababse, and RAG Architecture.
-You need to use RAG, with any open-source llm of your choice, and an opensource dataset, saved in a vector db.
+You need to use RAG, with any open-source llm of your choice, and any open-source dataset, saved in a vector db.
 
 ## Technologies:
 - LLM: Use **Ollama**, it is a tool that facilitates downloading open source llms such as llama2, llama3, phi, mistral, and others. **While it's best case scenario to use ollama, you can use other models from huggingface as an example, stating WHY YOU DIDN'T USE OLLAMA**.
@@ -15,8 +15,14 @@ You need to use RAG, with any open-source llm of your choice, and an opensource 
 - **Langchain:** Framework to chain LLm, VectorDB, and RetrievalQA Chain. **I CAN'T STRESS THIS ENOUGH, DEVELOPING WITH LANGCHAIN IS A GEM**
 - **Python:**. obvious no?. 
 
+### Here are some ideas:
+- Develop an LLM with RAG to answer FAQ. These FAQ will be passed first as PDF, loaded and splitted using langchain, saved in a vector database. Then this vectordb will be used as a retreiver, linked to a RetrievalQAChain also from langchain (This step requires LLM, you need to do your research), then the user can ask questions to this model, it should answer from these FAQ.
+- Developm an LLM with RAG to answer questions from any given PDF, say its a research paper and you want to extract information from it without reading it all. Take this question for example: "What is the methodology used in this paper?", using RAG implemented by langchain, you should be able to answer this question from your pdf.
+- I think you got the idea now.
+
+
 You are expected to:
-- Find an online open source dataset
+- Find an online open source dataset. 
 - Add this data to a vector database. Use Langchain text splitter and add them to vector database.
 - Adding data to vector database requires you to use an embedding model. I would suggest you use anyone from hugging face.
 - Use ollama to download an open source model. make sure to choose a model of 7B (7billion) parameters only, to avoid cpu crashing. Also, you can use phi model from ollama for low storage (i tested on it).
