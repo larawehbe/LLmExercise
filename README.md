@@ -22,9 +22,15 @@ You need to use RAG, with any open-source llm of your choice, and any open-sourc
 
 
 You are expected to:
-- Find an online open source dataset. 
+- Prepare dataset (Option 1: easy). A List of PDFs 
+- Prepare dataset (Option 2: intermediate-harder than 1). Find a dataset online (ex: from huggingface), or scrape data (ex: from reddit, using reddit api). 
 - Add this data to a vector database. Use Langchain text splitter and add them to vector database.
 - Adding data to vector database requires you to use an embedding model. I would suggest you use anyone from hugging face.
 - Use ollama to download an open source model. make sure to choose a model of 7B (7billion) parameters only, to avoid cpu crashing. Also, you can use phi model from ollama for low storage (i tested on it).
+- Use langchian to load model ( whether model from llama, ollama, or hugging face), retreive data from vectordb, and retreival chains for QA.
 
+### Bonus points:
+- Wrap it in Gradio for user interface
+- Create a conversational chat chain, and not a retreivalqa chain, where user can interact with the data source, and not only ask one question
+- Use FlaskAPI to wrap it in an API with POST Request.
 
