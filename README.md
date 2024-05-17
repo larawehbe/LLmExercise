@@ -56,3 +56,4 @@ Given that you know how to use python :) you are asked to:
 - fork the repository
 - Implement the solution
 - Send me the link and make sure you **either make it public,or you invite me as a collaborator so i can access it**
+- Send the link on my email larawehbee@outlook.com, with subject: LLM Exercise - yourname
