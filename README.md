@@ -1,7 +1,6 @@
 # LLmExercise
 This repository serves as a descrption for the exercise. 
 
-It will include two versions. Choose anyone of them that is more suitable for you.
 
 ## Objective:
 
@@ -29,8 +28,11 @@ You are expected to:
 - Use ollama to download an open source model. make sure to choose a model of 7B (7billion) parameters only, to avoid cpu crashing. Also, you can use phi model from ollama for low storage (i tested on it).
 - Use langchian to load model ( whether model from llama, ollama, or hugging face), retreive data from vectordb, and retreival chains for QA.
 
-### Bonus points:
+### Bonus points: ( points are not necessarily in priority order)
 - Wrap it in Gradio for user interface
 - Create a conversational chat chain, and not a retreivalqa chain, where user can interact with the data source, and not only ask one question
 - Use FlaskAPI to wrap it in an API with POST Request.
+- Write a small report: Difference between finetuning and RAG architecture, Procs and cons, when do we use what, and why.
+- Apply finetuning ( if needed ) before RAG 
 
+## Resources:
