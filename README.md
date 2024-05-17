@@ -40,4 +40,5 @@ You are expected to:
 - Ollama: https://ollama.com
 - Hugging Face: https://huggingface.com
 - Sample: https://hackernoon.com/simple-wonders-of-rag-using-ollama-langchain-and-chromadb This example uses RAG, and the dataset is from a person, they are using webloader. You can test on it, but submitting this dataset is considered as rejected solution!!.
+- what is rag: https://qdrant.tech/articles/what-is-rag-in-ai/ couldnt say it any better. However, feel free to explore more. This is not enough, its only the beginnign.
 - 
