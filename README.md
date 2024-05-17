@@ -21,7 +21,7 @@ You need to use RAG, with any open-source llm of your choice, and any open-sourc
 
 
 You are expected to:
-- Prepare dataset (Option 1: easy). A List of PDFs 
+- Prepare dataset (Option 1: easy). A List of PDFs, or one pdf with several pages is good. 
 - Prepare dataset (Option 2: intermediate-harder than 1). Find a dataset online (ex: from huggingface), or scrape data (ex: from reddit, using reddit api). 
 - Add this data to a vector database. Use Langchain text splitter and add them to vector database.
 - Adding data to vector database requires you to use an embedding model. I would suggest you use anyone from hugging face.
