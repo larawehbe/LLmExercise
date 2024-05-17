@@ -43,4 +43,16 @@ You are expected to:
 - Different ways of loading data in order to put them in vectordatabase and use langchain. i love this article. https://medium.com/@onkarmishra/using-langchain-for-question-answering-on-own-data-3af0a82789ed
 - Sample: https://hackernoon.com/simple-wonders-of-rag-using-ollama-langchain-and-chromadb This example uses RAG, and the dataset is from a person, they are using webloader. You can test on it, but submitting this dataset is considered as rejected solution!!.
 - what is rag: https://qdrant.tech/articles/what-is-rag-in-ai/ couldnt say it any better. However, feel free to explore more. This is not enough, its only the beginnign.
-- 
+- https://medium.com/@nageshmashette032/building-a-document-based-question-answering-system-with-langchain-using-open-source-llm-model-346efe676be6
+
+One more example and i'll be doing it for you :) khalas enough
+
+
+## Submission criteria
+
+You have one week at least to submit the solution.
+
+Given that you know how to use python :) you are asked to:
+- fork the repository
+- Implement the solution
+- Send me the link and make sure you **either make it public,or you invite me as a collaborator so i can access it**
